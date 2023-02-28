@@ -1,0 +1,28 @@
+body 
+{
+    background-color:#BCF4DE;
+    text-align: center;
+}
+
+button{
+    background-color:#FFB7C3; 
+    color:#DED6D1;  
+    font-family: 'Inter', sans-serif;
+    width:200px;
+    padding:10px;
+    margin:50px 0px 0px 0px;
+    border:none;
+    border-radius:10px;
+}
+
+button:hover {
+    background-color:#BCF4DE;
+}
+
+h1 {
+ font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+font-family: 'Inter', sans-serif;
+}
