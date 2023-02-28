@@ -1,12 +1,12 @@
 body 
 {
-    background-color:#BCF4DE;
+    background-color:white;
     text-align: center;
 }
 
 button{
     background-color:#FFB7C3; 
-    color:#DED6D1;  
+    color:black;  
     font-family: 'Inter', sans-serif;
     width:200px;
     padding:10px;
