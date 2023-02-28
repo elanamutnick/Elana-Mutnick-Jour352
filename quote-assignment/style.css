@@ -1,0 +1,31 @@
+/*
+MY COLOR PALETTE
+Color 1 - #HEX
+Color 2 - #HEX
+Color 3 - #HEX
+Color 4 - #HEX
+Color 5 - #HEX
+*/
+
+body {
+    background-color:#f2e9e4;
+    text-align:center;    
+}
+
+div {
+    width: 300px;
+    height: 420px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Inter', sans-serif;
+    color:#52796f;
+    border:3px solid white;
+    padding: 15px;
+    margin: 0 auto;
+    
+}
+
+#highlight {
+	background-color:yellow;
+    font-weight: bold;
+}
