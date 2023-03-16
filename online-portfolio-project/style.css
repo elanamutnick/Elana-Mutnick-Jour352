@@ -1,4 +1,87 @@
 .container-fluid {
-    background-color: beige;   
+    background-color: #bcb8b1;      
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;
+}
+h2 {
+   font-size: 40px;
+    font-family: 'Noto Serif', serif;
+    color: #463f3a; 
+}
+
+p {
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;
+}
+
+h3 {
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;
+}
+
+h4 {
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;
+}
+
+h5 {
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;
+}
+
+h6 {
+  font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;  
+}
+
+h7 {
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;
+}
+
+li {
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;
+}
+
+#topper {
+    background-color:#e0afa0;
+}
+
+<style>
+.bi {
+    font-size: 3em;
+}
+
+.col-md-4 {
     
+}
+
+#bottom {
+    background-color: #bcb8b1;
+}
+
+img {
+    border-radius: 50%
+}
+
+button {
+    background-color: #f4f3ee;
+    color:#463f3a;
+    font-family: 'Noto Serif', serif;
+    width: 85px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
 }
