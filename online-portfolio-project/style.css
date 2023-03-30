@@ -1,65 +1,66 @@
+@media {
+    
 .container-fluid {
-    background-color: #bcb8b1;      
+    background-color: #f4f3ee;      
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 42px;
     font-family: 'Noto Serif', serif;
     color: #463f3a;
+    font-weight: bold;
 }
 h2 {
-   font-size: 40px;
+   font-size: 39px;
     font-family: 'Noto Serif', serif;
     color: #463f3a; 
+    font-weight: bold;
+    text-underline-position: below; 
 }
 
 p {
     font-family: 'Noto Serif', serif;
     color: #463f3a;
-}
-
-h2 {
-    font-family: 'Noto Serif', serif;
-    color: #463f3a;
+    line-height: 25px;
+    
 }
 
 h3 {
     font-family: 'Noto Serif', serif;
     color: #463f3a;
+    font-size: 27px;
 }
 
 h4 {
     font-family: 'Noto Serif', serif;
     color: #463f3a;
+    font-size: 18px;
 }
 
 h5 {
     font-family: 'Noto Serif', serif;
     color: #463f3a;
+    font-size: 17px;
+    font-family: italic;
 }
 
 h6 {
-  font-size: 20px;
+  font-size: 25px;
     font-family: 'Noto Serif', serif;
     color: #463f3a;  
 }
 
-h7 {
-    font-size: 40px;
-    font-family: 'Noto Serif', serif;
-    color: #463f3a;
-}
-
-li {
-    font-family: 'Noto Serif', serif;
-    color: #463f3a;
-}
 
 #topper {
     background-color:#e0afa0;
+    border-width: inherit;
 }
 
-<style>
+ .topper-headshot {
+        margin: auto;
+    }
+    
+    
 .bi {
     font-size: 3em;
 }
@@ -70,10 +71,16 @@ li {
 
 #bottom {
     background-color: #bcb8b1;
+    border-width: inherit;
+
 }
 
 img {
-    border-radius: 50%
+    border-radius: 50%;
+    width: 200px;
+    border:3px solid black;
+    margin: 10px 0px 0px 10px;
+    
 }
 
 button {
@@ -81,7 +88,34 @@ button {
     color:#463f3a;
     font-family: 'Noto Serif', serif;
     width: 85px;
-    padding: 10px;
+    padding: 8px;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
+}
+
+.nav {
+    font-size: 20px;
+}
+
+.nav-link{
+    color: darkblue
+}
+.nav-link:hover {
+    color: #463f3a;
+}
+
+    
+}
+
+@media (min-width: 576px) {
+  img {
+    margin: 10px 0px 0px 10px;
+}
+}
+  
+    
+@media (min-width: 992px) {
+   img {
+    margin: 10px 0px 0px 10px;
+}
 }
