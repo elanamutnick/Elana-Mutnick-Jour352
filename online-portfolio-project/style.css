@@ -9,6 +9,7 @@ h1 {
     font-family: 'Noto Serif', serif;
     color: #463f3a;
     font-weight: bold;
+	margin: 0px 0px 10px 0px;
 }
 h2 {
    font-size: 39px;
@@ -16,6 +17,8 @@ h2 {
     color: #463f3a; 
     font-weight: bold;
     text-underline-position: below; 
+	margin: 0px 0px 10px 0px;
+	
 }
 
 p {
@@ -91,6 +94,7 @@ button {
     padding: 8px;
     border: none;
     border-radius: 5px;
+
     
 }
 
