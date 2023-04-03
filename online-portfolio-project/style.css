@@ -98,6 +98,16 @@ button {
     
 }
 	
+button a {
+		color:white;
+		text-decoration:none;
+	}
+	
+button a:hover {
+		color:white;
+		text-decoration:underline;
+	}
+	
 li {
     font-family: 'Noto Serif', serif;
     color: #463f3a;
@@ -115,7 +125,7 @@ li {
 }
 
 .nav-link{
-    color: darkblue
+    color: #463f3a;
 }
 .nav-link:hover {
     color: #463f3a;
