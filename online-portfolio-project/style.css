@@ -97,6 +97,17 @@ button {
 
     
 }
+	
+li {
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;
+    line-height: 25px;
+    
+}
+	
+	.section {
+		0px 200px 0px 0px
+	}
 
 .nav {
     font-size: 20px;
