@@ -16,16 +16,13 @@ h2 {
     font-family: 'Noto Serif', serif;
     color: #463f3a; 
     font-weight: bold;
-    text-underline-position: below; 
 	margin: 0px 0px 10px 0px;
-	
 }
 
 p {
     font-family: 'Noto Serif', serif;
     color: #463f3a;
-    line-height: 25px;
-    
+    line-height: 25px; 
 }
 
 h3 {
@@ -48,7 +45,7 @@ h5 {
 }
 
 h6 {
-  font-size: 25px;
+  	font-size: 25px;
     font-family: 'Noto Serif', serif;
     color: #463f3a;  
 }
@@ -68,22 +65,17 @@ h6 {
     font-size: 3em;
 }
 
-.col-md-4 {
-    
-}
 
 #bottom {
     background-color: #bcb8b1;
     border-width: inherit;
-
 }
 
 img {
     border-radius: 50%;
     width: 200px;
-    border:3px solid black;
-    margin: 10px 0px 0px 10px;
-    
+    border:3px solid #463f3a;
+    margin: 10px 0px 0px 10px; 
 }
 
 button {
@@ -93,26 +85,23 @@ button {
     width: 85px;
     padding: 8px;
     border: none;
-    border-radius: 5px;
-
-    
+    border-radius: 10px; 
 }
 	
 button a {
-		color:white;
-		text-decoration:none;
-	}
+	color:white;
+	text-decoration:none;
+}
 	
 button a:hover {
-		color:white;
-		text-decoration:underline;
-	}
+	color:white;
+	text-decoration:underline;
+}
 	
 li {
-    font-family: 'Noto Serif', serif;
+	font-family: 'Noto Serif', serif;
     color: #463f3a;
-    line-height: 25px;
-    
+    line-height: 25px;  
 }
 	
 	.section {
@@ -122,6 +111,7 @@ li {
 .nav {
     font-size: 20px;
     width: 100%;
+	background-color: #bcb8b1;
 }
 
 .nav-link{
