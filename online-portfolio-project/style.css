@@ -19,12 +19,6 @@ h2 {
 	margin: 0px 0px 10px 0px;
 }
 
-p {
-    font-family: 'Noto Serif', serif;
-    color: #463f3a;
-    line-height: 25px; 
-}
-
 h3 {
     font-family: 'Noto Serif', serif;
     color: #463f3a;
@@ -50,7 +44,12 @@ h6 {
     color: #463f3a;  
 }
 
-
+p {
+    font-family: 'Noto Serif', serif;
+    color: #463f3a;
+    line-height: 25px; 
+}
+	
 #topper {
     background-color:#e0afa0;
     border-width: inherit;
@@ -104,9 +103,9 @@ li {
     line-height: 25px;  
 }
 	
-	.section {
+.section {
 		0px 200px 0px 0px
-	}
+}
 
 .nav {
     font-size: 20px;
