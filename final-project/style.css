@@ -5,8 +5,7 @@ h1 {
 	font-size: 40px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	background: rgba(0, 0, 0, 0.35);
-    height:16vh;	
+	
 }
 	
 h3 {
@@ -14,9 +13,8 @@ h3 {
 	font-style: italic;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 28px;
-	background: rgba(0, 0, 0, 0.35);
-    height:20vh;
+	font-size: 20px;
+	
 
 	
 }
@@ -31,10 +29,8 @@ h4 {
 
 h6 {
 	color: #EBE4D6;
-	background-color: #EBE4D6;
-	background: rgba(0, 0, 0, 0.35);
-    height:3vh;	
 	font-family: 'Montserrat', sans-serif;
+	font-size:9px;
 }
 
 	
@@ -52,6 +48,14 @@ h6 {
 	float:none;
 }
 	
+.headertag {
+	background: rgba(0, 0, 0, 0.35);
+    height:50vh;	
+}
+
+.toppic {
+	padding:0px;	
+}
 	
 img {
 	width:100%;
@@ -110,17 +114,29 @@ body {
 	width: 80%;
 	float: left;	
 }
+.headertag {
+	background: rgba(0, 0, 0, 0.35);
+    height:40vh;	
+}
 	
 }
 
 @media (min-width:992px) {
 	.content {
-	width:50%;
+	width:60%;
 	}
+	.headertag {
+	background: rgba(0, 0, 0, 0.35);
+    height:32vh;	
+}
 }
 
 @media (min-width:1200px) {
 	.content {
 	width:60%;
 	}
+	.headertag {
+	background: rgba(0, 0, 0, 0.35);
+    height:25vh;	
+}
 }
