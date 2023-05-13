@@ -1,26 +1,40 @@
 @media {
 
 h1 {
-	color:#6D2E46;
+	color:#EBE4D6;
 	font-size: 40px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	background: rgba(0, 0, 0, 0.35);
+    height:16vh;	
 }
 	
 h3 {
-	color:#6D2E46;
+	color:#EBE4D6;
 	font-style: italic;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 32px;
+	font-size: 28px;
+	background: rgba(0, 0, 0, 0.35);
+    height:20vh;
 
+	
 }
 h4 {
 	font-size: 12px;
 	color:#6D2E46;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	background-color: #EBE4D6;
 
+}
+
+h6 {
+	color: #EBE4D6;
+	background-color: #EBE4D6;
+	background: rgba(0, 0, 0, 0.35);
+    height:3vh;	
+	font-family: 'Montserrat', sans-serif;
 }
 
 	
@@ -55,12 +69,17 @@ img {
 	
 .parallax {
   background-image: url(lead.webp);
-  min-height: 700px;
+  min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+	
+.space {
+	height:80vh;	
+}
+	
 .headline {
 	background:rgba(0, 213, 226, 0);
 	font-family: 'Montserrat', sans-serif;
