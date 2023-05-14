@@ -5,7 +5,6 @@ h1 {
 	font-size: 40px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	
 }
 	
 h3 {
@@ -14,17 +13,14 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 20px;
-	
-
-	
 }
+	
 h4 {
 	font-size: 12px;
 	color:#6D2E46;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	background-color: #EBE4D6;
-
 }
 
 h6 {
@@ -101,7 +97,6 @@ body {
 .footer{
 	color:#6D2E46;
 	font-family: 'Montserrat', sans-serif;
-	
 }
 	
 }
@@ -122,21 +117,24 @@ body {
 }
 
 @media (min-width:992px) {
-	.content {
-	width:60%;
-	}
-	.headertag {
-	background: rgba(0, 0, 0, 0.35);
-    height:29vh;	
+.content {
+width:60%;
 }
+
+.headertag {
+background: rgba(0, 0, 0, 0.35);
+height:29vh;	
+}
+	
 }
 
 @media (min-width:1200px) {
-	.content {
-	width:60%;
-	}
-	.headertag {
-	background: rgba(0, 0, 0, 0.35);
-    height:24vh;	
+.content {
+width:60%;
 }
+.headertag {
+background: rgba(0, 0, 0, 0.35);
+height:24vh;	
+}
+	
 }
